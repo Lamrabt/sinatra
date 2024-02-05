@@ -1,0 +1,17 @@
+source 'https://rubygems.org/'
+ruby '3.2.2'
+gem 'pry'
+gem 'rspec'
+gem 'rubocop'
+gem 'nokogiri'
+gem 'open-uri'
+gem 'dotenv'
+gem 'artii'
+gem 'colorize'
+gem 'rainbow'
+gem 'csv'
+gem 'sinatra'
+
+gem "rackup", "~> 2.1"
+
+gem "rerun", "~> 0.14.0"
