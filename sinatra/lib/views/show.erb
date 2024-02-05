@@ -9,6 +9,6 @@
     <p>Le contenu du potin :</p>
     <%= gossip.content %><br>
     <a href="/gossips/new/">"Lien pour revenir à la page d'acceil"</a><br>
-    <a href="/gossips/edit/">"Lien pour modifier le potin"</a>
+    <a href="/gossips/<%=params['id']%>/edit/">"Lien pour modifier le potin"</a>
   </body>
 </html>
